@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "custom001";
+    src: url(../font/SantEliaRoughAltBoldThrDEMO.otf);
+}
+
+.title {
+    margin-top: 25%;
+    margin-bottom: 25%;
+    padding-left: 12%;
+    font-family: custom001;
+}
+
+#navbar>ul {
+    margin-left: 55%;
+}
+
+.navbar-header{
+    font-family: custom001;
+}
