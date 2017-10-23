@@ -12,12 +12,12 @@ body {
 }
 
 .member {
-    margin: 10%;
+    margin: 8% 1%;
 }
 
 img {
-    border-radius: 10px;
-    width: 128px;
+    border-radius: 5px;
+    width: 90px;
     border-style: solid;
     border-width: 1px;
     border-color: #c4c4c4;
@@ -25,9 +25,9 @@ img {
 
 .media {
     background-color: #ffffff;
-    margin-top: 5%;
+    margin-top: 2%;
     padding: 4% 8%;
-    font-size: 15px;
+    font-size: 14px;
     border-style: solid;
     border-width: 1px;
     border-color: #efefef;
@@ -43,18 +43,24 @@ img {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #2c2c2c;
 }
 
 a:hover {
     text-decoration: none;
-    color: black;
+    color: #2c2c2c;
 }
 
 a:link {
     text-decoration: none;
+    color: #2c2c2c;
 }
 
 a:visited {
-    color: #5f5f5f;
+    text-decoration: none;
+    color: #393939;
+}
+
+hr{
+    margin: 1% 0;
 }
