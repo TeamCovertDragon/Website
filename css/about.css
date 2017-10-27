@@ -34,9 +34,18 @@ img {
     line-height: 1.5;
 }
 
-.media:hover {
+.media-left-icon:hover {
     background-color: #bbbf8b;
     margin-left: 1%;
+    margin-right: -1%;
+    transition-duration: 0.5s;
+    opacity: 0.9%;
+}
+
+.media-right-icon:hover {
+    background-color: #bbbf8b;
+    margin-left: -1%;
+    margin-right: 1%;
     transition-duration: 0.5s;
     opacity: 0.9%;
 }
