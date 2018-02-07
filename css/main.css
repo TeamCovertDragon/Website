@@ -14,7 +14,6 @@ body {
 .navbar-header {
     font-family: 微软雅黑, 黑体, Ubuntu;
 }
-
 .title:hover {
     opacity: 0.9;
     transition-duration: 1s;

@@ -8,33 +8,40 @@ body {
     font-family: 微软雅黑, 黑体, Ubuntu;
 }
 
-.title {
-    margin: 8% 1% 1% 1%;
+.mooncake,
+.springfestival {
+    margin: 20px;
     border-color: #c6c6c6;
     border-width: 2px;
-    background-color: #ffffff;
-    padding: 1% 5%;
+    background-color: #f5f5f5ee;
+    padding: 1% 3%;
+    font-family: 微软雅黑, 黑体, Ubuntu;
+    border-radius: 15px
 }
 
-.main {
-    margin: 2% 1% 1% 1%;
-    border-color: #c6c6c6;
-    border-width: 2px;
-    background-color: #ffffff;
-    padding: 1% 5%;
+.mooncake:hover,
+.springfestival:hover {
+    background-color: #bbbf8bee;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.desc {
+    color: #434343;
+    font-size: 14px;
+    line-height: 1.8;
+    padding-bottom: 15px;
+}
+
+.blank {
+    margin-top: 90px
 }
 
 p {
-    color: #434343;
-    font-size: 14px;
-    line-height: 1.5;
+    margin-top: 10px;
+    font-size: 15px
 }
 
-p > img {
-    width: 25px;
-    border-radius: 4px;
-}
-
-hr {
-    margin: 1% 0;
+p > a {
+    text-decoration: underline
 }
