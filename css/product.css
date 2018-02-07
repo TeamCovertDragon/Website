@@ -1,14 +1,7 @@
-@font-face {
-    font-family: "custom001";
-    src: url(../font/SantEliaRoughAltBoldThrDEMO.otf);
-}
-
 body {
-    background-color: #f5f5f5;
-}
-
-.navbar-header {
-    font-family: custom001;
+    background-image: url(https://i.loli.net/2018/02/07/5a7ae67c56854.jpg);
+    background-position: center top;
+    background-repeat: no-repeat
 }
 
 .title {

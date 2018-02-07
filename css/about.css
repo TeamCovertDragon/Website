@@ -1,14 +1,7 @@
-@font-face {
-    font-family: "custom001";
-    src: url(../font/SantEliaRoughAltBoldThrDEMO.otf);
-}
-
 body {
-    background-color: #f5f5f5;
-}
-
-.navbar-header {
-    font-family: custom001;
+    background-image: url(https://i.loli.net/2018/02/07/5a7ae67c56854.jpg);
+    background-position: center top;
+    background-repeat: no-repeat
 }
 
 .member {
@@ -20,22 +13,23 @@ img {
     width: 90px;
     border-style: solid;
     border-width: 1px;
-    border-color: #c4c4c4;
+    border-color: #c4c4c4ee;
 }
 
 .media {
-    background-color: #ffffff;
-    margin-top: 2%;
-    padding: 4% 8%;
+    font-family: 微软雅黑, 黑体, Ubuntu;
+    background-color: #eeeeeeee;
+    margin-top: 20px;
+    padding: 2% 4%;
     font-size: 14px;
     border-style: solid;
     border-width: 1px;
-    border-color: #efefef;
+    border-color: #efefef88;
     line-height: 1.5;
 }
 
 .media-left-icon:hover {
-    background-color: #bbbf8b;
+    background-color: #bbbf8bee;
     margin-left: 1%;
     margin-right: -1%;
     transition-duration: 0.5s;
@@ -43,7 +37,7 @@ img {
 }
 
 .media-right-icon:hover {
-    background-color: #bbbf8b;
+    background-color: #bbbf8bee;
     margin-left: -1%;
     margin-right: 1%;
     transition-duration: 0.5s;
@@ -72,4 +66,8 @@ a:visited {
 
 hr{
     margin: 1% 0;
+}
+
+.blank{
+    margin-top: 70px
 }
