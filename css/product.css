@@ -4,6 +4,10 @@ body {
     background-repeat: no-repeat
 }
 
+.navbar-header {
+    font-family: 微软雅黑, 黑体, Ubuntu;
+}
+
 .title {
     margin: 8% 1% 1% 1%;
     border-color: #c6c6c6;
@@ -22,11 +26,11 @@ body {
 
 p {
     color: #434343;
-    font-size: 14px;    
+    font-size: 14px;
     line-height: 1.5;
 }
 
-p>img {
+p > img {
     width: 25px;
     border-radius: 4px;
 }
