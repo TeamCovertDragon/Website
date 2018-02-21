@@ -75,3 +75,8 @@ hr {
 .blank {
     margin-top: 70px
 }
+
+.media-right {
+    padding-right: 15px;
+    padding-left: 0;
+}
