@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Statistics</title>
+</head>
+<body>
+    <p>当前的咸党数量：<span id="salty"></span></p>
+    <p>当前的甜党数量：<span id="sweet"></span></p>
+    <p>当前的辣党数量：<span id="spicy"></span></p>
+</body>
+</html>
+<script>
+    var req = new XMLHttpRequest();
+    req.open('GET', 'http://duanwu.tritusk.info', true);
+    function change() {
+        if (!req.responseText) return;
+        var json = JSON.parse(req.responseText);
+        document.getElementById("salty").innerText = json.salty;
+        document.getElementById("sweet").innerText = json.sweet;
+        document.getElementById("spicy").innerText = json.spicy;
+    }
+    req.onreadystatechange=change;
+    req.send(null);
+</script>
