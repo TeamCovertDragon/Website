@@ -1,47 +1,45 @@
 body {
-    background-image: url(https://i.loli.net/2018/02/07/5a7ae67c56854.jpg);
-    background-position: center top;
-    background-repeat: no-repeat
+  background-image: url(https://i.loli.net/2018/02/07/5a7ae67c56854.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
 }
 
 .navbar-header {
-    font-family: 微软雅黑, 黑体, Ubuntu;
+  font-family: 微软雅黑, 黑体, Ubuntu;
 }
 
-.mooncake,
-.springfestival {
-    margin: 20px;
-    border-color: #c6c6c6;
-    border-width: 2px;
-    background-color: #f5f5f5ee;
-    padding: 1% 3%;
-    font-family: 微软雅黑, 黑体, Ubuntu;
-    border-radius: 15px
+.product {
+  margin: 20px;
+  border-color: #c6c6c6;
+  border-width: 2px;
+  background-color: #f5f5f5ee;
+  padding: 1% 3%;
+  font-family: 微软雅黑, 黑体, Ubuntu;
+  border-radius: 15px;
 }
 
-.mooncake:hover,
-.springfestival:hover {
-    background-color: #bbbf8bee;
-    transition-duration: 0.5s;
-    transition-timing-function: ease-in-out;
+.product:hover {
+  background-color: #bbbf8bee;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
 }
 
 .desc {
-    color: #434343;
-    font-size: 14px;
-    line-height: 1.8;
-    padding-bottom: 15px;
+  color: #434343;
+  font-size: 14px;
+  line-height: 1.8;
+  padding-bottom: 15px;
 }
 
 .blank {
-    margin-top: 90px
+  margin-top: 90px;
 }
 
 p {
-    margin-top: 10px;
-    font-size: 15px
+  margin-top: 10px;
+  font-size: 15px;
 }
 
 p > a {
-    text-decoration: underline
+  text-decoration: underline;
 }
